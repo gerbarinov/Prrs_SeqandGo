@@ -342,7 +342,7 @@ process CREATE_CONSENSUS {
             touch ${sample_id}_${ref_name}_\${orf_name}_variants.vcf.gz
         else
             # Generate VCF file for the specific region with minimum variant frequency of 10%
-            bcftools mpileup -f ${reference} -r \$region ${bam} | \
+            bcftools mpileup -f ${reference} -q 20 -Q 20 -r \$region ${bam} | \
             bcftools call -mv --ploidy 1 -V indels -Oz -o ${sample_id}_${ref_name}_\${orf_name}_variants.vcf.gz
 
             # Index the VCF file
@@ -356,7 +356,7 @@ process CREATE_CONSENSUS {
             bcftools index ${sample_id}_${ref_name}_\${orf_name}_filtered_variants.vcf.gz
 
             # Create consensus sequence with IUPAC codes for ambiguous positions (>= 10% frequency)
-            bcftools consensus -f ${reference} --iupac-codes -o ${sample_id}_${ref_name}_\${orf_name}_full_consensus.fasta ${sample_id}_${ref_name}_\${orf_name}_filtered_variants.vcf.gz
+            bcftools consensus -f ${reference} --haplotype I -o ${sample_id}_${ref_name}_\${orf_name}_full_consensus.fasta ${sample_id}_${ref_name}_\${orf_name}_filtered_variants.vcf.gz
 
             # Extract the region of interest
             samtools faidx ${sample_id}_${ref_name}_\${orf_name}_full_consensus.fasta \$region > ${sample_id}_${ref_name}_\${orf_name}_consensus.fasta

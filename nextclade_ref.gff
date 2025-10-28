@@ -1,0 +1,23 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_043487.1 1 15111
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11049
+NC_043487.1	RefSeq	region	1	15111	.	+	.	ID=NC_043487.1:1..15111;Dbxref=taxon:11049;gbkey=Src;genome=genomic;mol_type=genomic RNA;note=virus extracted from porcine alveolar lung macrophages
+NC_043487.1	RefSeq	gene	222	7412	.	+	.	ID=gene-FLA28_gp1;Dbxref=GeneID:40526526;Name=FLA28_gp1;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FLA28_gp1
+NC_043487.1	RefSeq	CDS	222	7412	.	+	0	ID=cds-YP_009667147.1;Parent=gene-FLA28_gp1;Dbxref=GenBank:YP_009667147.1,GeneID:40526526;Name=YP_009667147.1;gbkey=CDS;locus_tag=FLA28_gp1;product=RNA polymerase;protein_id=YP_009667147.1
+NC_043487.1	RefSeq	gene	7394	11785	.	+	.	ID=gene-FLA28_gp2;Dbxref=GeneID:40526519;Name=FLA28_gp2;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FLA28_gp2
+NC_043487.1	RefSeq	CDS	7394	11785	.	+	0	ID=cds-YP_009667148.1;Parent=gene-FLA28_gp2;Dbxref=GenBank:YP_009667148.1,GeneID:40526519;Name=YP_009667148.1;gbkey=CDS;locus_tag=FLA28_gp2;partial=true;product=RNA polymerase;protein_id=YP_009667148.1;start_range=.,7394
+NC_043487.1	RefSeq	gene	11796	12545	.	+	.	ID=gene-FLA28_gp3;Dbxref=GeneID:40526520;Name=FLA28_gp3;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FLA28_gp3
+NC_043487.1	RefSeq	CDS	11796	12545	.	+	0	ID=cds-YP_009667149.1;Parent=gene-FLA28_gp3;Dbxref=GenBank:YP_009667149.1,GeneID:40526520;Name=YP_009667149.1;gbkey=CDS;locus_tag=FLA28_gp3;product=hypothetical protein;protein_id=YP_009667149.1
+NC_043487.1	RefSeq	gene	12404	13201	.	+	.	ID=gene-FLA28_gp4;Dbxref=GeneID:40526521;Name=FLA28_gp4;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FLA28_gp4
+NC_043487.1	RefSeq	CDS	12404	13201	.	+	0	ID=cds-YP_009667150.1;Parent=gene-FLA28_gp4;Dbxref=GenBank:YP_009667150.1,GeneID:40526521;Name=YP_009667150.1;gbkey=CDS;locus_tag=FLA28_gp4;product=hypothetical protein;protein_id=YP_009667150.1
+NC_043487.1	RefSeq	gene	12946	13497	.	+	.	ID=gene-FLA28_gp5;Dbxref=GeneID:40526522;Name=FLA28_gp5;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FLA28_gp5
+NC_043487.1	RefSeq	CDS	12946	13497	.	+	0	ID=cds-YP_009667151.1;Parent=gene-FLA28_gp5;Dbxref=GenBank:YP_009667151.1,GeneID:40526522;Name=YP_009667151.1;gbkey=CDS;locus_tag=FLA28_gp5;product=hypothetical protein;protein_id=YP_009667151.1
+NC_043487.1	RefSeq	gene	13494	14099	.	+	.	ID=gene-FLA28_gp6;Dbxref=GeneID:40526523;Name=FLA28_gp6;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FLA28_gp6
+NC_043487.1	RefSeq	CDS	13494	14099	.	+	0	ID=cds-YP_009667152.1;Parent=gene-FLA28_gp6;Dbxref=GenBank:YP_009667152.1,GeneID:40526523;Name=YP_009667152.1;gbkey=CDS;locus_tag=FLA28_gp6;product=hypothetical protein;protein_id=YP_009667152.1
+NC_043487.1	RefSeq	gene	14087	14608	.	+	.	ID=gene-FLA28_gp7;Dbxref=GeneID:40526524;Name=FLA28_gp7;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FLA28_gp7
+NC_043487.1	RefSeq	CDS	14087	14608	.	+	0	ID=cds-YP_009667153.1;Parent=gene-FLA28_gp7;Dbxref=GenBank:YP_009667153.1,GeneID:40526524;Name=YP_009667153.1;gbkey=CDS;locus_tag=FLA28_gp7;product=envelope protein;protein_id=YP_009667153.1
+NC_043487.1	RefSeq	gene	14598	14984	.	+	.	ID=gene-FLA28_gp8;Dbxref=GeneID:40526525;Name=FLA28_gp8;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FLA28_gp8
+NC_043487.1	RefSeq	CDS	14598	14984	.	+	0	ID=cds-YP_009667154.1;Parent=gene-FLA28_gp8;Dbxref=GenBank:YP_009667154.1,GeneID:40526525;Name=YP_009667154.1;gbkey=CDS;locus_tag=FLA28_gp8;product=nucleocapsid protein;protein_id=YP_009667154.1
+
